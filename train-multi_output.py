@@ -38,6 +38,7 @@ df_train = None
 df_validation = None
 df_overall = None
 parametrization_dict = None
+target_size = (224, 224)
 
 file = open(file_name, 'r')
 lines = file.readlines()
